@@ -1,8 +1,52 @@
-#ptitulo {
-    text-align: center;
+html {
+    background-image: linear-gradient(to bottom,rgb(217, 217, 250), white);
+    height: 100%;
+}
+
+html, body {
+    padding: 0%;
+    margin: 0%;
+}
+
+* {
     font-family: 'Quicksand', sans-serif;
 }
-html {
-    background-image: linear-gradient(to bottom, white, rgb(210, 210, 247));
-    height: 100%;
+
+a {
+    text-decoration: none;
+}
+
+#ptitulo {
+    text-align: center;
+    animation-name: content_anim;
+    position: relative;
+    top: -30px;
+}
+
+#menu_icone {
+    height: 35px;
+    width: 30px;
+    position: fixed;
+    right: 30px;
+    top: 35px;
+}
+
+#menu_icone:hover {
+    opacity: 0.5;
+}
+
+#cabecalho {
+    height: 104px;
+    background-color: burlywood;
+    position: relative;
+    top: -35px;
+}
+
+#titulo_do_cabecalho {
+    position: relative;
+    left: 30px;
+    top: 19px;
+    font-size: 50px;
+    color: black;
+    opacity: 0.7;
 }
