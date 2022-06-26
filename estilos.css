@@ -1,6 +1,7 @@
 html {
     background-image: linear-gradient(to bottom,rgb(217, 217, 250), white);
     height: 100%;
+    overflow-x: hidden;
 }
 
 html, body {
