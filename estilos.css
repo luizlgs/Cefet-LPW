@@ -10,6 +10,11 @@ html, body {
     overflow-x: hidden;
 }
 
+:root {
+    --font-xl: 3vw;
+    --font-md: 1rem;
+}
+
 * {
     font-family: 'Quicksand', sans-serif;
 }
@@ -22,7 +27,7 @@ a {
     text-align: center;
     animation-name: content_anim;
     position: relative;
-    top: -30px;
+    top: -20px;
 }
 
 #menu_icone {
@@ -30,7 +35,7 @@ a {
     width: 30px;
     position: fixed;
     right: 30px;
-    top: 35px;
+    top: 30px;
 }
 
 #menu_icone:hover {
@@ -41,14 +46,32 @@ a {
     height: 104px;
     background-color: burlywood;
     position: relative;
-    top: -35px;
+    top: -37px;
 }
 
 #titulo_do_cabecalho {
     position: relative;
     left: 30px;
-    top: 19px;
-    font-size: 50px;
+    top: 13px;
+    font-size: 55px;
     color: black;
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1024px) {
+    #titulo_do_cabecalho {
+        font-size: 30px;
+        top: -9px;
+    }
+    #cabecalho {
+        height: 60px;
+    }
+    #menu_icone {
+        top: 12px;
+    }
+    #ptitulo {
+        font-size: 25px;
+    }
+}
+
+
