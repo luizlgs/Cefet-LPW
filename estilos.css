@@ -117,14 +117,14 @@ html, body {
         top: -10px;
     }
     .blocos {
-        width: 300px;
+        width: 320px;
     }
     .imgs {
         width: 250px;
     }
     
     .paragrafo_block {
-        font-size: 15px;
+        font-size: 20px;
     }
     .paragrafo {
         margin-left: 30px;
