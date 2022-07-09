@@ -155,7 +155,7 @@ html, body {
 }
 .voltar{
     position: fixed;
-    right: 10px;
+    left: 10px;
     bottom: 50px;
     height: 30px;
 }
