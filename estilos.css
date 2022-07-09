@@ -136,3 +136,19 @@ html, body {
     }
 
 }
+
+#mainc {
+    text-align: center;
+}
+
+.main_websitel {
+    position: relative;
+    left: 1690px;
+    top: 35px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main_websitel:hover {
+    color: rgb(214, 93, 93);
+}
