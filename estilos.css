@@ -105,13 +105,16 @@ html, body {
         top: -10px;
     }
     .blocos {
-        width: 500px;
+        width: 400px;
     }
     #primeiro_paragrafo {
         font-size: 15px;
     }
     #img_definicao_de_funcao {
-        width: 400px;
+        width: 300px;
+    }
+    #img_seg_imagem {
+        width: 300px;
     }
     #seg_paragrafo {
         font-size: 15px;
