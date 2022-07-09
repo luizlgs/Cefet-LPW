@@ -153,11 +153,12 @@ html, body {
 .main_websitel:hover {
     color: rgb(214, 93, 93);
 }
+
 .voltar{
     position: fixed;
-    right: 10px;
-    bottom: 50px;
-    height: 30px;
+    right: 15px;
+    bottom: 20px;
+    height: 50px;
 }
 .voltar:hover{
     opacity: 0.5;
