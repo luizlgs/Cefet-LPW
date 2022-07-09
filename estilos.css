@@ -87,7 +87,7 @@ html, body {
     padding-right: 30px;
 }
 
-#img_seg_imagem {
+#seg_imagem {
     padding-top: 30px;
 }
 
@@ -105,17 +105,18 @@ html, body {
         top: -10px;
     }
     .blocos {
-        width: 400px;
+        width: 280px;
     }
     #primeiro_paragrafo {
         font-size: 15px;
     }
     #img_definicao_de_funcao {
-        width: 300px;
+        width: 150px;
     }
-    #img_seg_imagem {
-        width: 300px;
+    #seg_imagem {
+        width: 150px;
     }
+    
     #seg_paragrafo {
         font-size: 15px;
     }
