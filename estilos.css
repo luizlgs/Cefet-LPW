@@ -173,9 +173,9 @@ li a:hover{
 
 @media screen and (max-width: 1024px) {
     #titulo_do_cabecalho {
-        font-size: 40px;
+        font-size: 35px;
         top: 0px;
-        left: 44%;
+        left: 46%;
     }
     .cabecalho {
         height: 100px;
@@ -206,9 +206,11 @@ li a:hover{
         width: 100px;
         position: relative;
         top: -60px;
-        left: 42%;
+        left: 43.5%;
     }
     .contentli {
-        font-size: 18px;
+        font-size: 12px;
+        padding-left: 7px;
+        padding-right: 7px;
     }
 }
