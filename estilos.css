@@ -205,7 +205,10 @@ li a:hover{
     .conteudo_do_menu {
         width: 100px;
         position: relative;
-        top: -70px;
+        top: -60px;
         left: 42%;
+    }
+    .contentli {
+        font-size: 18px;
     }
 }
